@@ -110,7 +110,7 @@ public class shortest_path {
 					for (String st:nodes) { // i need to over loop the node list to avoid duplicated names
 						
 						if(ob.From.equals( st )) {
-							nodes.add(st);
+							nodes.add(st); // error is here in this line
 						}
 						
 						
